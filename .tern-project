@@ -1,0 +1,18 @@
+{
+	"ecmaVersion": 8,
+	"libs": [
+		"ecmascript"
+	],
+	"loadEagerly": [
+	],
+	"dontLoad": [
+	],
+	"plugins": {
+		"commonjs": {},
+		"node": {},
+		"complete_strings": {},
+		"doc_comment": {
+			"fullDocs": true
+		}
+	}
+}

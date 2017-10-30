@@ -1,0 +1,32 @@
+{
+  "name": "node-require-function",
+  "version": "1.0.0",
+  "description": "Get the real Node require function in Node, or null in browsers, without errors from bundlers.",
+  "keywords": [
+    "require",
+    "node",
+    "node.js",
+    "native"
+  ],
+  "author": "Alexander O'Mara",
+  "repository": "https://github.com/AlexanderOMara/node-require-function",
+  "license": "MPL-2.0",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint index.js test",
+    "test": "tape 'test/**/*.test.js' | tap-spec"
+  },
+  "files": [
+    "index.js",
+    "LICENSE.txt",
+    "README.md"
+  ],
+  "devDependencies": {
+    "browserify": "^14.5.0",
+    "eslint": "^4.10.0",
+    "puppeteer": "^0.12.0",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.8.0",
+    "webpack": "^3.8.1"
+  }
+}
