@@ -12,6 +12,7 @@
   "repository": "https://github.com/AlexanderOMara/node-require-function",
   "license": "MPL-2.0",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "lint": "eslint index.js test",
     "test": "tape 'test/**/*.test.js' | tap-spec"
@@ -21,12 +22,15 @@
     "LICENSE.txt",
     "README.md"
   ],
+  "dependencies": {
+    "@types/node": "*"
+  },
   "devDependencies": {
-    "browserify": "^14.5.0",
-    "eslint": "^4.10.0",
-    "puppeteer": "^0.12.0",
-    "tap-spec": "^4.1.1",
-    "tape": "^4.8.0",
-    "webpack": "^3.8.1"
+    "browserify": "^16.2.2",
+    "eslint": "^4.19.1",
+    "puppeteer": "^1.5.0",
+    "tap-spec": "^5.0.0",
+    "tape": "^4.9.1",
+    "webpack": "^4.12.0"
   }
 }
